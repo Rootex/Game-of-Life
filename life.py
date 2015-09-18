@@ -22,8 +22,8 @@ class life:
     assert WIDTH % CELLSIZE == 0
     assert HEIGHT % CELLSIZE == 0
 
-    CELLWIDTH = WIDTH / CELLSIZE  # number of horizontal cells
-    CELLHEIGT = HEIGHT / CELLSIZE  # number of vertical cells
+    CELLWIDTH = int(WIDTH / CELLSIZE)  # number of horizontal cells
+    CELLHEIGT = int(HEIGHT / CELLSIZE)  # number of vertical cells
 
     BLACK = (0, 0, 0)  # line colors
     WHITE = (255, 255, 255)  # background color
